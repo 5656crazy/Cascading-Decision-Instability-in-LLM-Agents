@@ -34,12 +34,9 @@ Regardless of the model's capability, LLM Agents exhibited a **100% preference f
 
 ### Head-to-Head Model Comparison (RMSE)
 > GPT-4o-mini (Blue) vs. Claude 3.5 Sonnet (Orange). Notice the extreme variance and prediction collapse of Claude at high missing rates.
-![Head-to-Head Comparison](images/head_to_head_rmse_comparison.png)
 
 ### Stability Metrics: Jaccard & RBO
 > Measuring how feature lists and feature importance rankings shift under prompt perturbations.
-![Stability Metrics](images/stability_metrics_table.png) 
-*(You can also use a Markdown table here instead of an image)*
 
 ---
 
@@ -57,7 +54,5 @@ The pipeline is built using an Agentic Workflow representing a standard machine 
 * **Models Tested:** `openai/gpt-4o-mini` vs `anthropic/claude-3.5-sonnet`.
 
 ---
-
-tps://github.com/](https://github.com/)[Your-Username]/[Your-Repo-Name].git
 cd [Your-Repo-Name]
 pip install -r requirements.txt
